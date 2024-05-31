@@ -21,4 +21,4 @@ def application():
         print(out)
         return render_template('index.html',prediction=out) 
 
-app.run(port=5004)
+app.run(host='0.0.0.0')
